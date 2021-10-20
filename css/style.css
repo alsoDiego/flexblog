@@ -90,3 +90,15 @@ img {
     color: #122ab2;
     transition-duration: 300ms;
 }
+
+/* Introdução */
+
+.introducao {
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 1;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 10px;
+}
+
