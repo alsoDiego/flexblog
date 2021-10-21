@@ -241,8 +241,19 @@ img {
     display: block;
     width: 6px;
     height: 6px;
-    background: #2c70ff;
     border-radius: 50%;
+}
+
+.preco-item:nth-of-type(3n+1) li::after {
+    background: #ae81ff;
+}
+
+.preco-item:nth-of-type(3n+2) li::after {
+    background: #f9265e;
+}
+
+.preco-item:nth-of-type(3n+3) li::after {
+    background: #66d9eb;
 }
 
 .preco-item a {
